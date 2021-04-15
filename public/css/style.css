@@ -1,0 +1,148 @@
+:root {
+    --border-color: rgb(185, 185, 185);
+    --border-radius: 6px;
+    --black-color: #4A4D50;
+    --caption-color: #4a4d50;
+    --error-color: red;
+    --datatable-color: #E1E1E1;
+    --datatable-dark-cell-color: #f8f8f8;
+    --message-border-color: #1E88E5;
+    --message-background-color: #E3F2FD;
+    --bwidth: 80rem;
+    font-family: Oswald;
+    font-size: 16px;
+    color: var(--black-color);
+    --bcolor1: #E1E1E1;
+    --bcolor2: white;
+}
+
+html {
+    padding: 1rem;
+    min-width: 600px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var(--bcolor1);
+}
+
+@media (max-width: 1024px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+header {
+    font-family: Oswald;
+}
+
+img.lot {
+    width: 200px;
+    height: 200px;
+}
+
+img.r_icon {
+    width: 20px;
+    height: 20px;
+}
+
+tr.lot {
+    display: inline-block;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+div.c_title {
+    background-color: var(--bcolor2);
+    width: var(--bwidth);
+    font-size: 2rem;
+    display:inline-block;
+}
+
+div.title {
+    margin: auto;
+}
+
+img.logo {
+    width: 400px;
+    height: 180px;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: var(--bwidth);
+    background-color: var(--bcolor2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header li .lotIcon {
+    width: 250px;
+    height: 100px;
+}
+header ul li {
+    display:inline-block;
+}
+.header {
+    position: static;
+}
+header * {
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+body {
+    padding-top: 100px;
+}
+.col {
+    width: var(--bwidth);
+}
+#coffeeLink {
+    top: 2rem;
+    position: absolute;
+}
+
+.htitle {
+    margin: 5rem;
+}
+.enter-or-register-box {
+    right: 2rem;
+    bottom: 10rem;
+}
+
+.form-box {
+    font-size: 2rem;
+}
+
+.hello * {
+    display: inline-block;
+}
+
+.lot * {
+    background-color: var(--bcolor2);
+}
+
+.h_icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 1rem;
+}
+.h_icons {
+    display: flex;
+    justify-content: stretch;
+}
+div.nav ul {
+    padding: 0;
+    width: 560px;
+}
+div.col_body {
+    width: var(--bwidth);
+    background-color: var(--bcolor2);
+    margin: 20px 0 20px 0;
+}
