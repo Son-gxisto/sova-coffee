@@ -5,6 +5,11 @@
 npm install
 ```
 
+### About site
+```
+  Simple site, created on Vue.js; Have "joy" data-base, can be upgraded to real db.
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
